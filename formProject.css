@@ -1,0 +1,146 @@
+/* Reset */ 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0ebf8;
+}
+
+h1,h2,h3,h4,h5{
+    color: #333;
+}
+
+p{
+    color: #444;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+input[type="text"]
+input[type="number"]
+input[type="date"]
+input[type="file"]
+textarea{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 5px;
+}
+
+/* Page header */
+
+.header{
+    height: 200px;
+    padding: 20px;
+    /* background-color: #673ab7; */
+    background-image: url(bg_1692968160.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.header h1{
+    color: #660202;
+    margin: auto 0;
+    text-align: center;
+    line-height: 200px;
+    text-decoration: 2px underline #333;   
+}
+
+/* form container */
+
+
+.form-container{
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+    
+}
+
+/* Forma header */
+
+.form-header{
+    border-bottom: 2px solid #030202;
+    height: 45px;
+}
+
+.form-header h1 {
+    color: #17924e;
+    margin: auto 0;
+    text-align: center;
+    line-height: 50px;  
+}
+
+.form-body{
+    padding: 30px;
+
+}
+
+.form-title{
+    margin-bottom: 15px;
+    color: #17924e;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+    border-bottom: 2px solid green ;
+    text-transform: uppercase;
+}
+
+.required-field{
+    color: #d80835;
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list li{
+    list-style: none;margin-bottom: 5px;
+}
+
+.box-input p{
+    margin-bottom: 15px;
+}
+
+.btn-submit{
+    background-color: #423d4b;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 0.2s;
+    margin: 0 400px 0 350px;
+}
+
+.btn-submit:hover{
+    background-color: #09f56b;
+    border: 1px solid #030202;
+    color: #030202;
+    text-transform: uppercase;
+
+    
+}
+
+
